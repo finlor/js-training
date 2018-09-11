@@ -1,5 +1,9 @@
 'use strict'
 
+var str = "1337";
+var num = 42;
+var bool = false;
+var undef
 /*
  * Create a constant variables for each primitives
  * `str`, `num`, `bool` and `undef`

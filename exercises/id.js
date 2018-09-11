@@ -1,5 +1,9 @@
 'use strict'
 
+let x=0
+function id(x) {
+    return x;
+}
 /*
  * Create an `id` function that takes one argument and return it
  *

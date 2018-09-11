@@ -1,5 +1,17 @@
 'use strict'
 
+
+var obj = new Object();
+
+obj.str = "1337";
+obj.num = 42;
+obj.bool = false;
+obj.undef;
+
+
+
+
+
 /*
  * Create an object `obj` that has a property for each primitive values
  * much like in primitive.js
