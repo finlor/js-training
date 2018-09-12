@@ -1,5 +1,24 @@
 'use strict'
 
+function multiply(x,y) {
+    let i=0
+    let result=0
+    if (y>0){
+    while (i<y){
+        i++
+        result= result + x
+
+    }
+    }
+    else {
+        while (i>y){
+            i--
+            result= result - x
+        }
+    }
+    return result
+}
+
 /*
  * Create a function `multiply` that takes two number arguments
  * and returns the result of the multiplication of those two.

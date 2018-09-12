@@ -1,5 +1,13 @@
 'use strict'
 
+
+function isPositive (x) {
+    if (x>0){
+    return true}
+    else {
+        return false
+    }
+}
 /*
  * Create a `isPositive` function that takes a number as
  * parameter and return true if the given number is

@@ -1,6 +1,17 @@
 'use strict'
 
-/*
+
+function total(x) {
+    let somme=0;
+    for (let i=0; i<x.length; i=i+1){
+        somme = somme + x[i];
+    }
+
+    return somme
+
+}
+
+/*length
  * Create a `total` function that takes an array of numbers
  * and return the total
  *

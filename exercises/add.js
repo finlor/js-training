@@ -1,6 +1,11 @@
 'use strict'
 
-/*
+function add (x,y) {
+    return (x+y)
+}
+    
+    
+    /*
  * Create a `add` function that takes 2 number arguments and add them
  *
  * @notions Primitive and Operators, Functions

@@ -1,5 +1,14 @@
 'use strict'
 
+
+function max (x,y) {
+    if (x>y) {
+        return x
+    }
+    else {
+        return y
+    }
+}
 /*
  * Create the `max` function that takes 2 number as arguments
  * and returns the greatest

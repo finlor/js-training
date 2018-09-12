@@ -1,5 +1,13 @@
 'use strict'
 
+function min (x,y) {
+    if (x>y) {
+        return y
+    }
+    else {
+        return x
+    }
+}
 /*
  * Create the `min` function that takes 2 number as arguments
  * and returns the lowest

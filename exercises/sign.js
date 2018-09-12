@@ -1,5 +1,16 @@
 'use strict'
 
+
+function sign (x) {
+    if (x>0) {
+        return 1
+    }
+    else if (x<0) {
+        return -1
+    }
+    else {
+        return 0}
+}
 /*
  * Create the `sign` function that takes one number argument
  * and return 1 if the number is positive, -1 if the number is negative

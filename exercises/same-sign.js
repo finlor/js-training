@@ -1,5 +1,13 @@
 'use strict'
 
+function sameSign (x,y) {
+    if ((x>0 && y>0) || (x<0 && y<0) || (x==y)) {
+        return true
+        }
+    else {
+        return false
+    }
+}
 /*
  * Create the `sameSign` function that takes 2 numbers as arguments and check
  * if they both have the same sign

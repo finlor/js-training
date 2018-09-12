@@ -1,5 +1,7 @@
 'use strict'
 
+
+const escapeStr="("\042\047\057\140");
 /*
  * Create a constant variable named `escapeStr` that contains
  * the following specials characters: /\`"'

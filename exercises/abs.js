@@ -1,5 +1,14 @@
 'use strict'
 
+
+function abs (x) {
+    if (x>=0) {
+        return x
+    }
+    else {
+        return -x
+    }
+}
 /*
  * Create the `abs` function that takes one number argument
  * and returns its absolute value.

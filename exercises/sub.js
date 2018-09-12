@@ -1,5 +1,8 @@
 'use strict'
 
+function sub (x,y) {
+    return (x-y)
+}
 /*
  * Create a `sub` function that takes 2 numbers as arguments and substract them
  *
