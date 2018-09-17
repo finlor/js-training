@@ -21,8 +21,7 @@ const sourceObject = {
 
 function get (x) {
   
- 
-  return sourceObject.x
+  return sourceObject[x]
 }
 
 //* Begin of tests
