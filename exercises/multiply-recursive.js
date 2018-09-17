@@ -1,5 +1,61 @@
 'use strict'
 
+
+let result = 0;
+let result2 = 0;
+let result3 = 0;
+function mult(x, y) {
+    if (x > 0) {
+        result = result + y;
+        return mult(x - 1, y);
+    }
+
+    else {
+        return result;
+    }
+}
+function mult2(x, y) {
+    if (x < 0) {
+        result2 = result2 - y;
+        return mult2(x + 1, y);
+    }
+    else {
+        return result2;
+    }
+}
+
+function mult3(x, y) {
+    if (x > 0) {
+        result3 = result3 + y;
+        return mult3(x - 1, y);
+    }
+
+    else {
+        return result3;
+    }
+}
+function multiply(x, y) {
+    if ((x == 0) || (y == 0)) {
+        return 0;
+
+    }
+
+    else if (((x > 0) && (y > 0))) {
+        return (mult(x, y))
+
+    }
+
+    else if (((x < 0) && (y < 0))) {
+        return (mult2(x, y));
+
+    }
+
+    else {
+        return (mult3(x, y));
+
+    }
+}
+
 /*
  * Create a `multiply` function that takes two number as arguments
  * and returns the result of the multiplication of those two.

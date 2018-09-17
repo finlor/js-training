@@ -1,5 +1,6 @@
 'use strict'
 
+
 /*
  * Jaden Smith Case
  *
@@ -10,10 +11,20 @@
  *
  */
 
+function jadenCase(phrase) {
+    let tabtempo=[];
+    var arrayOfStrings = phrase.split(' ');
+    for (var i = 0; i < arrayOfStrings.length; i++) {
+       arrayOfStrings[i]=arrayOfStrings[i].charAt(0).toUpperCase()+arrayOfStrings[i].substring(1);
+     
+    }
 
+    return arrayOfStrings.join(' ');
+
+}
 
 //* Begin of tests
 const assert = require('assert')
-
-assert.fail('You must write your own tests')
+assert.strictEqual(typeof jadenCase, 'function')
+assert.strictEqual(jadenCase('how are you ?'), 'How Are You ?')
 // End of tests */

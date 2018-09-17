@@ -1,4 +1,7 @@
-'use strict'
+
+let circular = new Object();
+
+circular.circular = circular;
 
 /*
  * Create an object named `circular` that has a property named `circular` with
