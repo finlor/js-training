@@ -1,5 +1,10 @@
 'use strict'
 
+function getLength (arg1) {
+    let Longueur = 0;
+    Longueur = arg1.length
+    return Longueur
+}
 /*
  * Create a `getLength` function that takes an array or a string
  * and return its length.

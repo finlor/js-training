@@ -1,5 +1,10 @@
 'use strict'
 
+
+function getLast (x) {
+
+    return (x[x.length-1])
+}
 /*
  * Create a `getLast` function that takes an array or a string
  * and return the last element.

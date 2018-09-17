@@ -1,5 +1,7 @@
 'use strict'
 
+
+
 /*
  * Create a `get` function that takes a key and return the corresponding value
  * in the sourceObject
@@ -16,6 +18,12 @@ const sourceObject = {
 }
 
 // Your code :
+
+function get (x) {
+  
+ 
+  return sourceObject.x
+}
 
 //* Begin of tests
 const assert = require('assert')
